@@ -1,0 +1,9 @@
+# Compiled source
+Build
+Build/*
+oceanS
+oceanM
+*.job
+*.nc
+*.nc.gz
+*.py
