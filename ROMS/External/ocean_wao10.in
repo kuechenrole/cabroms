@@ -68,7 +68,7 @@
 
 ! C-preprocessing Flag.
 
-    MyAppCPP = WAOM10
+    MyAppCPP = wao10
 
 ! Input variable information file name.  This file needs to be processed
 ! first so all information arrays can be initialized properly.
@@ -773,8 +773,8 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
 ! Input NetCDF file names, [1:Ngrids].
 
-     GRDNAME == Data/waom10/waom10_grd_large.nc
-     ININAME == ocean_hack.nc!Data/waom10/waom10_ini_large.nc
+     GRDNAME == Data/wao10/wao10_grd_large.nc
+     ININAME == ocean_hack.nc!Data/wao10/wao10_ini_large.nc
      ITLNAME == ocean_itl.nc
      IRPNAME == ocean_irp.nc
      IADNAME == ocean_iad.nc
@@ -793,7 +793,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 ! line per entry with a vertical bar (|) symbol after each entry,
 ! except the last one.
 
-     BRYNAME == Data/waom10/waom10_bry_large.nc
+     BRYNAME == Data/wao10/wao10_bry_large.nc
      CLMNAME == ocean_clm.nc
 
 ! Input climatology nudging coefficients file name.
@@ -818,8 +818,8 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
      NFFILES == 2                          ! number of unique forcing files
 
-     FRCNAME == Data/waom10/waom10_ptds_large.nc \
-                Data/waom10/waom10_sbc_large.nc      ! two forcing files for surface and tidal forcing
+     FRCNAME == Data/wao10/wao10_ptds_large.nc \
+                Data/wao10/wao10_sbc_large.nc      ! two forcing files for surface and tidal forcing
                 
 
 
